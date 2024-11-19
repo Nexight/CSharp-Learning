@@ -137,12 +137,21 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
 /*operadores
     igualdad:       ==
     desigualdad:    !=
+    mayor que :     >
+    menor que:      >
+    mayor o igual   >=
+    menor o igual   <=
 
+    operador not    !   (invierte el resultado esperado por una expresion condicional)
 
     Bonus----
 
     ToLower(); // sirve para poner todo un string en minuscula
     ToUpper(); // sirve para poner todo un string en mayuscula
+
+    Contains(); // revisa si el string contiene al argumento ingresado y devuelve un bool
+    StartsWith(); // devuelve un booleano que depende de si el string ingresado empieza con el argumento
+    EndsWith(); // Devuelve un bool segun si el string termina con el caracter del argumento
 
     Trim(); // remueve los espacios en blanco 
 
@@ -156,11 +165,36 @@ string value2 = "A ";
 Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
 */
 
-Console.WriteLine("a" != "a");
-Console.WriteLine("a" != "A");
-Console.WriteLine(1 != 2);
+// ctrl+K,C comenta todo lo seleccionado
 
-string myValue = "a";
-Console.WriteLine(myValue != "a");
+// Console.WriteLine("a" != "a");
+// Console.WriteLine("a" != "A");
+// Console.WriteLine(1 != 2);
+
+// string myValue = "a";
+// Console.WriteLine(myValue != "a");
+
+// Console.WriteLine(1 > 2);
+// Console.WriteLine(1 < 2);
+// Console.WriteLine(1 >= 1);
+// Console.WriteLine(1 <= 1);
+
+/*  ----------------------
+    Algunos metodos devuelven un valor booleano ( true or false) 
+
+    los string tienen muchos de ellos como : .Contains(); / .StartsWith() / .EndsWith()
+*/
+
+// string pangram = $"The quick brown fox jumps over the lazy dog.";
+// Console.WriteLine(pangram.Contains("fox"));
+// Console.WriteLine(pangram.Contains("cow"));
+
+// int a = 7;
+// int b = 6;
+// Console.WriteLine(a != b); // output: True
+// string s1 = "Hello";
+// string s2 = "Hello";
+// Console.WriteLine(s1 != s2); // output: False
+
 
 #endregion

@@ -12,3 +12,4 @@ D:\repositorios\Practicas de C#\CsharpProjects\TestProject\obj\Debug\net7.0\refi
 D:\repositorios\Practicas de C#\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.pdb
 D:\repositorios\Practicas de C#\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.genruntimeconfig.cache
 D:\repositorios\Practicas de C#\CsharpProjects\TestProject\obj\Debug\net7.0\ref\TestProject.dll
+D:\repositorios\Practicas de C#\CsharpProjects\TestProject\obj\Debug\net7.0\TestProject.sourcelink.json
